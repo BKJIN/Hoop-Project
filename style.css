@@ -1,0 +1,49 @@
+@charset "utf-8";
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-decoration : none;
+    color: black;
+    list-style-type: none;
+}
+
+header {
+    width: 1600px ;
+    height: 100px ;
+}
+
+header > .top {
+    display: flex ;
+}
+
+header > .top > .logo {
+    width: 130px;
+    display: flex ;
+    align-items: center ;
+}
+
+header > .top > .left {
+    line-height: 100px ;
+    width: 1000px ;
+    height: 100px; 
+}
+
+header > .top > .left > ul> li {
+    width: 100px ;
+    float: left ;
+    font-size: 13px;
+    text-align: center;
+}
+
+header > .top > .right {
+    line-height: 100px ;
+    width: 300px ;
+    height: 100px;
+}
+
+header > .top > .right > ul > li {
+    width: 60px;
+    float: left;
+    font-size: 13px;
+    text-align: center;
+}
