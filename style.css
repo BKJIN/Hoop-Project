@@ -7,9 +7,19 @@
     list-style-type: none;
 }
 
+/* body{
+    width: 1600px;
+    margin: 0 auto;
+} */
+
 header {
     width: 1600px ;
     height: 100px ;
+    position: fixed;
+    right:0;
+    left:0;
+    top:0;
+    background-color: white;
 }
 
 header > .top {
@@ -22,17 +32,25 @@ header > .top > .logo {
     align-items: center ;
 }
 
+header > .top > .logo > a > img{
+    width:153px;
+}
+
 header > .top > .left {
     line-height: 100px ;
     width: 1000px ;
     height: 100px; 
 }
 
-header > .top > .left > ul> li {
+header > .top > .left > .menu > li {
     width: 100px ;
     float: left ;
     font-size: 13px;
     text-align: center;
+}
+
+header > .top > .left > .menu > .submenu{
+    display: none;
 }
 
 header > .top > .right {
@@ -47,3 +65,85 @@ header > .top > .right > ul > li {
     font-size: 13px;
     text-align: center;
 }
+
+/* section */
+
+/*section slide*/
+
+.slide{
+    width: 1600px;
+    margin-top: 100px;
+}
+
+.slide > img {
+    width:1600px;
+}
+
+/*section slide*/
+
+/*section shoes*/
+
+.shoes {
+    width:1600px;
+    height: 950px;
+}
+
+.shoes > .line{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.shoes > .shoesinf {
+    float:left;
+    text-align: center;
+    margin-left: 40px;
+    
+}
+
+.shoes > .shoesinf > ul > li > img {
+    width: 350px;
+} 
+
+/*section shoes*/
+
+/*section banner*/
+
+.banner {
+    width:1600px;
+}
+
+.banner > img {
+    width:1600px;
+}
+
+/*section banner*/
+
+/*section item*/
+
+.item {
+    width:1600px;
+    height: 950px;
+}
+
+.item > .line{
+    text-align: center;
+    margin-top: 70px;
+}
+
+.item > .iteminf {
+    float:left;
+    text-align: center;
+    width:400px;
+    /* word-break: break-all; */
+}
+
+.item > .iteminf > ul > li > img {
+    width: 350px;
+}
+
+.item > .iteminf > ul > li > h4 {
+    margin-top:20px;
+    color: gray;
+}
+
+/*section item*/
