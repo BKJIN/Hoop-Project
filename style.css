@@ -104,6 +104,24 @@ header > .top > .right > ul > li {
     width: 350px;
 } 
 
+.shoes > .shoesinf > ul > .s_name {
+    font-size: 16px;
+    color: #555;
+    font-weight: 700;
+} 
+
+.shoes > .shoesinf > ul >  li > span {
+    font-size: 16px;
+    color: #7a000c;
+    font-weight: 700;
+} 
+
+.shoes > .shoesinf > ul >  li > .won {
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
+} 
+
 /*section shoes*/
 
 /*section banner*/
@@ -139,6 +157,24 @@ header > .top > .right > ul > li {
 
 .item > .iteminf > ul > li > img {
     width: 350px;
+}
+
+.item > .iteminf > ul > .i_name {
+    font-size: 16px;
+    color: #555;
+    font-weight: 700;
+} 
+
+.item > .iteminf > ul >  li > span {
+    font-size: 16px;
+    color: #7a000c;
+    font-weight: 700;
+} 
+
+.item > .iteminf > ul >  li > .won {
+    font-size: 14px;
+    color: #555;
+    font-weight: 400;
 }
 
 .item > .iteminf > ul > li > h4 {
@@ -226,16 +262,44 @@ footer > .f_top > ul > li {
 
 footer > .f_bottom {
     text-align: center;
-    color: #a4a4a4;
+    /* color: #a4a4a4; */
     background: #333;
     height: 340px;
 }
 
 footer > .f_bottom > .sns {
-    width:150px;
+    width:115px;
     display:flex;
 }
 
-/* footer > .f_bottom > .f_menu {
- 
-} */
+footer > .f_bottom > .sns > li {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    background: #b2b2b2;
+    line-height: 52px;
+    margin-top: 30px;
+}
+    
+footer > .f_bottom > .f_menu > li {
+    margin-top: 20px;
+    color: #a4a4a4;
+    display:inline-block;
+    padding:3px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+footer > .f_bottom > .info > h1 {
+    margin-top:17px;
+    margin-bottom: 17px ;
+    color: #a4a4a4;
+    font-size: 16px; 
+}
+
+footer > .f_bottom > .info > p {
+    padding:3px;
+    color: #a4a4a4;
+    font-size: 13px;
+    font-weight: bold; 
+}
