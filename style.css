@@ -47,10 +47,15 @@ header > .top > .left > .menu > li {
     float: left ;
     font-size: 13px;
     text-align: center;
+    border:  solid 1px black;
 }
 
-header > .top > .left > .menu > .submenu{
-    display: none;
+.menu > a:hover > .submenu {
+    display:block;
+}
+
+header > .top > .left > .menu > .s_menu > .submenu{
+    display:none;
 }
 
 header > .top > .right {
