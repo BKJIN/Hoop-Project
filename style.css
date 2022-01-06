@@ -47,15 +47,33 @@ header > .top > .left > .menu > li {
     float: left ;
     font-size: 13px;
     text-align: center;
-    border:  solid 1px black;
+    /* border:  solid 1px black; */
 }
 
-.menu > a:hover > .submenu {
+header > .top > .left > .menu > li:hover > .submenu{
     display:block;
+    background-color: white;
+    width:150px;
+    /* border:  solid 1px black; */
+    position: relative;
+    right:25px;
 }
 
-header > .top > .left > .menu > .s_menu > .submenu{
+header > .top > .left > .menu > li > .submenu{
     display:none;
+    padding:1px;
+}
+
+header > .top > .left > .menu > li > .submenu > li{
+    line-height: 1.3;
+    width:fit-content;
+    margin-bottom: 15px;
+}
+
+header > .top > .left > .menu > li > .submenu > li:hover { 
+    color: white;
+    background-color: black;
+    transition: all 0.5s;
 }
 
 header > .top > .right {
